@@ -22,7 +22,7 @@ public source/build have distinct hashes.
 | `snapshot/A339592 - OEIS.md` | `results/oeis_snapshot.md` | Byte-identical saved OEIS page; its 12-term state is historical. |
 | `outputs/campaign_handoff/environment144_v1.txt`, `outputs/triage_checks.md` | `results/environment.txt`, `results/triage.md` | Byte-identical pre-run and small-order diagnostics. |
 | `outputs/campaign_handoff/validation_tail144_v1.txt`, `outputs/campaign_handoff/high_order_comparison_v1.txt` | `results/tail_checks.txt`, `results/high_order.txt` | Byte-identical bounded high-order diagnostics; they are not extra campaign terms. |
-| `paper/A339592_v3.tex` | `paper/A339592.tex` | Final manuscript derived from the preserved provisional predecessor; publication locators and availability text were updated. The generated `paper/A339592.pdf` matches this final source. |
+| Preserved local predecessor manuscript (SHA-256 `893780a20d6fc8bdcdf1acf3adf93573940f97c1675cb08ff003f98a77efb7c0`) | `paper/A339592.tex` | Final manuscript derived from that predecessor; publication locators and availability text were updated. The generated `paper/A339592.pdf` matches this final source. |
 
 `validation/check_package.py`, `validation/audit.py` and `validation/run.sh`
 are new public-package checks, not historical campaign code. The exact historical C and
