@@ -1,0 +1,3 @@
+phase	first	last	command_at_run	wall_seconds	user_seconds	system_seconds	peak_rss_kib	minor_faults	exit_status	state	log
+native	1	144	timeout --signal=TERM --kill-after=30s 300s ./src/a339592 run 144 campaign144	13.17	12.78	0.02	50684	12505	0	results/native/run.tsv	results/native.log
+checker	1	144	timeout --signal=TERM --kill-after=30s 1200s python3 validation/check_counts.py campaign144/run.tsv --from 1 --through 144 --state check144/check.json	265.88	115.62	148.06	18612	34720958	0	results/check/check.json	results/check.log

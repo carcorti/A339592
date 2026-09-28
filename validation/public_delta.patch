@@ -1,0 +1,81 @@
+--- results/run_identity/a339592_v2.c
++++ src/a339592.c
+@@ -26,8 +26,7 @@
+ /* A339592: all independent subsets of MG_n, including the empty set.
+  * Project owner: Carlo Corti (identity: confirmed project strategy).
+  * C17 with GCC/Clang unsigned __int128, Linux/POSIX file operations.
+- * Release candidate: external review and campaign authorization are separate.
+- * Current review source basename: a339592_v2.c.
++ * Public package source: a339592.c.
+  * MG_n edge i>j iff [z^(i-j-1)] M(z)^j is odd, M=1+zM+z^2M^2.
+  * Deletion partitions independent sets by absence/presence of a vertex.
+  * Every six consecutive vertices induce at most 15 independent sets;
+--- results/run_identity/Makefile
++++ src/Makefile
+@@ -1,8 +1,8 @@
+-# Single canonical C17 build; private validation is make test.
++# C17 public build; bounded validation is make test.
+ CC = gcc-13
+ CFLAGS = -O3 -std=c17 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wdouble-promotion -Wformat=2
+ LDFLAGS =
+-SOURCE = a339592_v2.c
++SOURCE = a339592.c
+ .PHONY: all test clean FORCE
+ all: a339592
+ a339592: $(SOURCE) Makefile FORCE
+@@ -17,6 +17,6 @@
+ 	$(CC) $(CFLAGS) -DSOURCE_SHA="\"$$source_sha\"" -DMAKE_SHA="\"$$make_sha\"" $(SOURCE) $(LDFLAGS) -o $@
+ test: a339592
+ 	./a339592 selftest
+-	python3 ../validation/test_candidate_v2.py ./a339592
++	python3 ../validation/test_candidate.py ./a339592
+ clean:
+ 	rm -f a339592
+--- results/run_identity/test_candidate_v2.py
++++ validation/test_candidate.py
+@@ -67,11 +67,11 @@
+ 
+ with tempfile.TemporaryDirectory(prefix='a339592-test-') as td:
+     td = pathlib.Path(td)
+-    source_sha = hashlib.sha256((root/'src/a339592_v2.c').read_bytes()).hexdigest()
++    source_sha = hashlib.sha256((root/'src/a339592.c').read_bytes()).hexdigest()
+     make_sha = hashlib.sha256((root/'src/Makefile').read_bytes()).hexdigest()
+     probe = td/'graph_probe'
+     cc = os.environ.get('CC', 'gcc-13')
+-    cmd = [cc, '-O3', '-std=c17', '-Wall', '-Wextra', '-Wpedantic', '-Wshadow', '-Wconversion', '-Wdouble-promotion', '-Wformat=2', f'-DSOURCE_SHA="{source_sha}"', f'-DMAKE_SHA="{make_sha}"', str(root/'validation/graph_probe_v2.c'), '-o', str(probe)]
++    cmd = [cc, '-O3', '-std=c17', '-Wall', '-Wextra', '-Wpedantic', '-Wshadow', '-Wconversion', '-Wdouble-promotion', '-Wformat=2', f'-DSOURCE_SHA="{source_sha}"', f'-DMAKE_SHA="{make_sha}"', str(root/'validation/graph_probe.c'), '-o', str(probe)]
+     build = run(*cmd)
+     if build.returncode: raise SystemExit(build.stderr)
+     got = run(str(probe))
+@@ -80,8 +80,8 @@
+     actual = got.stdout.splitlines()
+     if actual != rows: raise SystemExit('FAIL: independent integer-series graph mismatch')
+     known_rows = [tuple(map(int,line.split())) for line in (root/'data/b339592.txt').read_text().splitlines() if line.strip()]
+-    if [i for i,_ in known_rows] != list(range(1,13)): raise SystemExit('FAIL: known index range')
+-    known = [v for _,v in known_rows]
++    if [i for i,_ in known_rows] != list(range(1,145)): raise SystemExit('FAIL: public index range')
++    known = [v for _,v in known_rows[:12]]
+     values = [direct(adjacency, n) for n in range(1, 17)]
+     if values[:12] != known: raise SystemExit('FAIL: published prefix mismatch')
+     run_dir = td/'bounded_run'
+--- results/run_identity/graph_probe_v2.c
++++ validation/graph_probe.c
+@@ -1,6 +1,6 @@
+ /* Bounded test fixture: expose the candidate's graph bits, no run state. */
+ #define main candidate_main
+-#include "../src/a339592_v2.c"
++#include "../src/a339592.c"
+ #undef main
+ int main(void){
+     init_powers();
+--- results/run_identity/test_check_counts.py
++++ validation/test_check_counts.py
+@@ -55,7 +55,7 @@
+             'Lagrange graph differs from integer Motzkin series at 192')
+     known = [int(line.split()[1]) for line in
+              (ROOT/'data/b339592.txt').read_text().splitlines() if line.strip()]
+-    require(len(known) == 12, 'known prefix length')
++    require(len(known) == 144, 'public data range')
+     for n in range(1, 13):
+         require(checker.independent_count(n) == known[n-1],
+                 f'known count mismatch at {n}')

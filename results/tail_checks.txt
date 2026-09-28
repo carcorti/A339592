@@ -1,0 +1,116 @@
+Scope: bounded separate single-order diagnostics near proposed 144; no native run state, checker state, b-file write or official campaign.
+Checker SHA-256: df8c4cf77c0073e74c655a281bbc22c290868c9c8d0343c4c70f9ced4d3949e3
+Python: 3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]
+Exact command template: /usr/bin/time -v timeout 30 python3 -c 'import importlib.util,resource,sys,time; p=sys.argv[1]; n=int(sys.argv[2]); s=importlib.util.spec_from_file_location("checker",p); m=importlib.util.module_from_spec(s); s.loader.exec_module(m); progress=m.Progress(); progress.n=n; t=time.monotonic(); v=m.independent_count(n,progress); print(f"n={n} value={v} seconds={time.monotonic()-t:.9f} rss_kib={resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}",flush=True)' /home/carlo/MATH/OEIS/A339592/validation/check_counts.py N
+ORDER 140 exit=0
+n=140 value=1235792698312768098622 seconds=6.013281053 rss_kib=16028
+
+ACTIVE n=140 elapsed=5 s
+	Command being timed: "timeout 30 python3 -c import importlib.util,resource,sys,time; p=sys.argv[1]; n=int(sys.argv[2]); s=importlib.util.spec_from_file_location("checker",p); m=importlib.util.module_from_spec(s); s.loader.exec_module(m); progress=m.Progress(); progress.n=n; t=time.monotonic(); v=m.independent_count(n,progress); print(f"n={n} value={v} seconds={time.monotonic()-t:.9f} rss_kib={resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}",flush=True) /home/carlo/MATH/OEIS/A339592/validation/check_counts.py 140"
+	User time (seconds): 6.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16184
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1895
+	Voluntary context switches: 3
+	Involuntary context switches: 29
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+ORDER 142 exit=0
+n=142 value=2432136854929839394745 seconds=8.103661032 rss_kib=16112
+
+ACTIVE n=142 elapsed=5 s
+	Command being timed: "timeout 30 python3 -c import importlib.util,resource,sys,time; p=sys.argv[1]; n=int(sys.argv[2]); s=importlib.util.spec_from_file_location("checker",p); m=importlib.util.module_from_spec(s); s.loader.exec_module(m); progress=m.Progress(); progress.n=n; t=time.monotonic(); v=m.independent_count(n,progress); print(f"n={n} value={v} seconds={time.monotonic()-t:.9f} rss_kib={resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}",flush=True) /home/carlo/MATH/OEIS/A339592/validation/check_counts.py 142"
+	User time (seconds): 8.11
+	System time (seconds): 0.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16248
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1892
+	Voluntary context switches: 3
+	Involuntary context switches: 125
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+ORDER 143 exit=0
+n=143 value=2437633217693006865373 seconds=9.945723967 rss_kib=15844
+
+ACTIVE n=143 elapsed=5 s
+	Command being timed: "timeout 30 python3 -c import importlib.util,resource,sys,time; p=sys.argv[1]; n=int(sys.argv[2]); s=importlib.util.spec_from_file_location("checker",p); m=importlib.util.module_from_spec(s); s.loader.exec_module(m); progress=m.Progress(); progress.n=n; t=time.monotonic(); v=m.independent_count(n,progress); print(f"n={n} value={v} seconds={time.monotonic()-t:.9f} rss_kib={resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}",flush=True) /home/carlo/MATH/OEIS/A339592/validation/check_counts.py 143"
+	User time (seconds): 9.96
+	System time (seconds): 0.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1894
+	Voluntary context switches: 3
+	Involuntary context switches: 121
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+ORDER 144 exit=0
+n=144 value=4839167564472933081443 seconds=9.227963727 rss_kib=15772
+
+ACTIVE n=144 elapsed=5 s
+	Command being timed: "timeout 30 python3 -c import importlib.util,resource,sys,time; p=sys.argv[1]; n=int(sys.argv[2]); s=importlib.util.spec_from_file_location("checker",p); m=importlib.util.module_from_spec(s); s.loader.exec_module(m); progress=m.Progress(); progress.n=n; t=time.monotonic(); v=m.independent_count(n,progress); print(f"n={n} value={v} seconds={time.monotonic()-t:.9f} rss_kib={resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}",flush=True) /home/carlo/MATH/OEIS/A339592/validation/check_counts.py 144"
+	User time (seconds): 9.23
+	System time (seconds): 0.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15924
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1891
+	Voluntary context switches: 3
+	Involuntary context switches: 177
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+type: software
+license: MIT
+message: "Please cite the accompanying article when using these counts. DOI is a placeholder until publication."
+title: "A339592: Exact Independent-Set Counts in Motzkin Graphs through Order 144"
+authors:
+  - family-names: Corti
+    given-names: Carlo
+    email: carlo.corti@outlook.com
+version: "v1.0"
+repository-code: "https://github.com/carcorti/A339592"
+doi: "10.5281/zenodo.xxxxxxxx"
+url: "https://doi.org/10.5281/zenodo.xxxxxxxx"
+keywords:
+  - Motzkin graphs
+  - independent sets
+  - exact enumeration
+  - A339592
+abstract: "Exact C17 enumeration and distinct Python validation at every index from 1 through 144, with original states, logs, an indexed b-file and a provisional manuscript. This is a local package draft; the DOI and repository URL designate an intended release."
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Corti
+      given-names: Carlo
+      email: carlo.corti@outlook.com
+  title: "Exact Independent-Set Counts in Motzkin Graphs through Order 144"
+  year: 2026
+  doi: "10.5281/zenodo.xxxxxxxx"
+  url: "https://doi.org/10.5281/zenodo.xxxxxxxx"

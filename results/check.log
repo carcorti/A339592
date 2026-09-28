@@ -1,0 +1,364 @@
+START n=1 checked=0
+{"status": "COMMITTED", "n": 1, "count": "2", "elapsed_ns": 6442}
+START n=2 checked=1
+{"status": "COMMITTED", "n": 2, "count": "3", "elapsed_ns": 11131}
+START n=3 checked=2
+{"status": "COMMITTED", "n": 3, "count": "4", "elapsed_ns": 12493}
+START n=4 checked=3
+{"status": "COMMITTED", "n": 4, "count": "7", "elapsed_ns": 9438}
+START n=5 checked=4
+{"status": "COMMITTED", "n": 5, "count": "9", "elapsed_ns": 21541}
+START n=6 checked=5
+{"status": "COMMITTED", "n": 6, "count": "13", "elapsed_ns": 17153}
+START n=7 checked=6
+{"status": "COMMITTED", "n": 7, "count": "17", "elapsed_ns": 22102}
+START n=8 checked=7
+{"status": "COMMITTED", "n": 8, "count": "26", "elapsed_ns": 36699}
+START n=9 checked=8
+{"status": "COMMITTED", "n": 9, "count": "29", "elapsed_ns": 43141}
+START n=10 checked=9
+{"status": "COMMITTED", "n": 10, "count": "48", "elapsed_ns": 54733}
+START n=11 checked=10
+{"status": "COMMITTED", "n": 11, "count": "55", "elapsed_ns": 46747}
+START n=12 checked=11
+{"status": "COMMITTED", "n": 12, "count": "95", "elapsed_ns": 64651}
+START n=13 checked=12
+{"status": "COMMITTED", "n": 13, "count": "104", "elapsed_ns": 59833}
+START n=14 checked=13
+{"status": "COMMITTED", "n": 14, "count": "174", "elapsed_ns": 73728}
+START n=15 checked=14
+{"status": "COMMITTED", "n": 15, "count": "196", "elapsed_ns": 109456}
+START n=16 checked=15
+{"status": "COMMITTED", "n": 16, "count": "344", "elapsed_ns": 127780}
+START n=17 checked=16
+{"status": "COMMITTED", "n": 17, "count": "358", "elapsed_ns": 118572}
+START n=18 checked=17
+{"status": "COMMITTED", "n": 18, "count": "667", "elapsed_ns": 163518}
+START n=19 checked=18
+{"status": "COMMITTED", "n": 19, "count": "768", "elapsed_ns": 226536}
+START n=20 checked=19
+{"status": "COMMITTED", "n": 20, "count": "1387", "elapsed_ns": 204855}
+START n=21 checked=20
+{"status": "COMMITTED", "n": 21, "count": "1430", "elapsed_ns": 241584}
+START n=22 checked=21
+{"status": "COMMITTED", "n": 22, "count": "2534", "elapsed_ns": 251623}
+START n=23 checked=22
+{"status": "COMMITTED", "n": 23, "count": "2870", "elapsed_ns": 237457}
+START n=24 checked=23
+{"status": "COMMITTED", "n": 24, "count": "4998", "elapsed_ns": 251382}
+START n=25 checked=24
+{"status": "COMMITTED", "n": 25, "count": "5056", "elapsed_ns": 282140}
+START n=26 checked=25
+{"status": "COMMITTED", "n": 26, "count": "9617", "elapsed_ns": 385544}
+START n=27 checked=26
+{"status": "COMMITTED", "n": 27, "count": "10104", "elapsed_ns": 427153}
+START n=28 checked=27
+{"status": "COMMITTED", "n": 28, "count": "19306", "elapsed_ns": 495612}
+START n=29 checked=28
+{"status": "COMMITTED", "n": 29, "count": "19464", "elapsed_ns": 397578}
+START n=30 checked=29
+{"status": "COMMITTED", "n": 30, "count": "36706", "elapsed_ns": 536028}
+START n=31 checked=30
+{"status": "COMMITTED", "n": 31, "count": "37964", "elapsed_ns": 483138}
+START n=32 checked=31
+{"status": "COMMITTED", "n": 32, "count": "71816", "elapsed_ns": 503165}
+START n=33 checked=32
+{"status": "COMMITTED", "n": 33, "count": "71920", "elapsed_ns": 558410}
+START n=34 checked=33
+{"status": "COMMITTED", "n": 34, "count": "142416", "elapsed_ns": 557258}
+START n=35 checked=34
+{"status": "COMMITTED", "n": 35, "count": "161958", "elapsed_ns": 619665}
+START n=36 checked=35
+{"status": "COMMITTED", "n": 36, "count": "303760", "elapsed_ns": 804663}
+START n=37 checked=36
+{"status": "COMMITTED", "n": 37, "count": "309391", "elapsed_ns": 985503}
+START n=38 checked=37
+{"status": "COMMITTED", "n": 38, "count": "585307", "elapsed_ns": 794914}
+START n=39 checked=38
+{"status": "COMMITTED", "n": 39, "count": "660099", "elapsed_ns": 1044143}
+START n=40 checked=39
+{"status": "COMMITTED", "n": 40, "count": "1211327", "elapsed_ns": 1172514}
+START n=41 checked=40
+{"status": "COMMITTED", "n": 41, "count": "1214687", "elapsed_ns": 1243296}
+START n=42 checked=41
+{"status": "COMMITTED", "n": 42, "count": "2314069", "elapsed_ns": 1086492}
+START n=43 checked=42
+{"status": "COMMITTED", "n": 43, "count": "2323534", "elapsed_ns": 1460596}
+START n=44 checked=43
+{"status": "COMMITTED", "n": 44, "count": "4544254", "elapsed_ns": 1496754}
+START n=45 checked=44
+{"status": "COMMITTED", "n": 45, "count": "4547554", "elapsed_ns": 1669929}
+START n=46 checked=45
+{"status": "COMMITTED", "n": 46, "count": "8814698", "elapsed_ns": 1709564}
+START n=47 checked=46
+{"status": "COMMITTED", "n": 47, "count": "8839202", "elapsed_ns": 1931381}
+START n=48 checked=47
+{"status": "COMMITTED", "n": 48, "count": "17409434", "elapsed_ns": 1672214}
+START n=49 checked=48
+{"status": "COMMITTED", "n": 49, "count": "17410398", "elapsed_ns": 2083406}
+START n=50 checked=49
+{"status": "COMMITTED", "n": 50, "count": "34784067", "elapsed_ns": 2156874}
+START n=51 checked=50
+{"status": "COMMITTED", "n": 51, "count": "35990226", "elapsed_ns": 2084398}
+START n=52 checked=51
+{"status": "COMMITTED", "n": 52, "count": "70606987", "elapsed_ns": 2589778}
+START n=53 checked=52
+{"status": "COMMITTED", "n": 53, "count": "70709353", "elapsed_ns": 2754458}
+START n=54 checked=53
+{"status": "COMMITTED", "n": 54, "count": "139563769", "elapsed_ns": 2818548}
+START n=55 checked=54
+{"status": "COMMITTED", "n": 55, "count": "145069273", "elapsed_ns": 3100769}
+START n=56 checked=55
+{"status": "COMMITTED", "n": 56, "count": "280544457", "elapsed_ns": 3315151}
+START n=57 checked=56
+{"status": "COMMITTED", "n": 57, "count": "280589045", "elapsed_ns": 3405551}
+START n=58 checked=57
+{"status": "COMMITTED", "n": 58, "count": "554352464", "elapsed_ns": 3880664}
+START n=59 checked=58
+{"status": "COMMITTED", "n": 59, "count": "554844319", "elapsed_ns": 4264215}
+START n=60 checked=59
+{"status": "COMMITTED", "n": 60, "count": "1105028729", "elapsed_ns": 4223919}
+START n=61 checked=60
+{"status": "COMMITTED", "n": 61, "count": "1105064553", "elapsed_ns": 4354885}
+START n=62 checked=61
+{"status": "COMMITTED", "n": 62, "count": "2191014793", "elapsed_ns": 4762121}
+START n=63 checked=62
+{"status": "COMMITTED", "n": 63, "count": "2192342661", "elapsed_ns": 4869503}
+START n=64 checked=63
+{"status": "COMMITTED", "n": 64, "count": "4352673893", "elapsed_ns": 5377107}
+START n=65 checked=64
+{"status": "COMMITTED", "n": 65, "count": "4352677513", "elapsed_ns": 5496662}
+START n=66 checked=65
+{"status": "COMMITTED", "n": 66, "count": "8704020426", "elapsed_ns": 5758864}
+START n=67 checked=66
+{"status": "COMMITTED", "n": 67, "count": "9806498539", "elapsed_ns": 6945886}
+START n=68 checked=67
+{"status": "COMMITTED", "n": 68, "count": "18510388597", "elapsed_ns": 7078826}
+START n=69 checked=68
+{"status": "COMMITTED", "n": 69, "count": "18788740795", "elapsed_ns": 8275886}
+START n=70 checked=69
+{"status": "COMMITTED", "n": 70, "count": "36188897315", "elapsed_ns": 8466894}
+START n=71 checked=70
+{"status": "COMMITTED", "n": 71, "count": "40627424607", "elapsed_ns": 9714139}
+START n=72 checked=71
+{"status": "COMMITTED", "n": 72, "count": "75697419479", "elapsed_ns": 9999726}
+START n=73 checked=72
+{"status": "COMMITTED", "n": 73, "count": "75859924134", "elapsed_ns": 11905118}
+START n=74 checked=73
+{"status": "COMMITTED", "n": 74, "count": "146772926276", "elapsed_ns": 12197246}
+START n=75 checked=74
+{"status": "COMMITTED", "n": 75, "count": "147160324824", "elapsed_ns": 14845424}
+START n=76 checked=75
+{"status": "COMMITTED", "n": 76, "count": "290560424828", "elapsed_ns": 18456713}
+START n=77 checked=76
+{"status": "COMMITTED", "n": 77, "count": "290675303544", "elapsed_ns": 19408321}
+START n=78 checked=77
+{"status": "COMMITTED", "n": 78, "count": "570597812576", "elapsed_ns": 18360111}
+START n=79 checked=78
+{"status": "COMMITTED", "n": 79, "count": "571909891144", "elapsed_ns": 20856083}
+START n=80 checked=79
+{"status": "COMMITTED", "n": 80, "count": "1134232515876", "elapsed_ns": 21674190}
+START n=81 checked=80
+{"status": "COMMITTED", "n": 81, "count": "1134240831070", "elapsed_ns": 24027124}
+START n=82 checked=81
+{"status": "COMMITTED", "n": 82, "count": "2266823766284", "elapsed_ns": 24304604}
+START n=83 checked=82
+{"status": "COMMITTED", "n": 83, "count": "2271806562042", "elapsed_ns": 30401845}
+START n=84 checked=83
+{"status": "COMMITTED", "n": 84, "count": "4525451174742", "elapsed_ns": 30392257}
+START n=85 checked=84
+{"status": "COMMITTED", "n": 85, "count": "4525478165437", "elapsed_ns": 37520035}
+START n=86 checked=85
+{"status": "COMMITTED", "n": 86, "count": "9018988806973", "elapsed_ns": 36814289}
+START n=87 checked=86
+{"status": "COMMITTED", "n": 87, "count": "9041680315581", "elapsed_ns": 43262349}
+START n=88 checked=87
+{"status": "COMMITTED", "n": 88, "count": "17888544069629", "elapsed_ns": 43628488}
+START n=89 checked=88
+{"status": "COMMITTED", "n": 89, "count": "17888554713929", "elapsed_ns": 50767977}
+START n=90 checked=89
+{"status": "COMMITTED", "n": 90, "count": "35676728804924", "elapsed_ns": 50917849}
+START n=91 checked=90
+{"status": "COMMITTED", "n": 91, "count": "35678262960292", "elapsed_ns": 60658959}
+START n=92 checked=91
+{"status": "COMMITTED", "n": 92, "count": "71296911854358", "elapsed_ns": 63274115}
+START n=93 checked=92
+{"status": "COMMITTED", "n": 93, "count": "71296918872520", "elapsed_ns": 68985781}
+START n=94 checked=93
+{"status": "COMMITTED", "n": 94, "count": "142264356092048", "elapsed_ns": 70219259}
+START n=95 checked=94
+{"status": "COMMITTED", "n": 95, "count": "142269400892312", "elapsed_ns": 78477171}
+START n=96 checked=95
+{"status": "COMMITTED", "n": 96, "count": "283132396205336", "elapsed_ns": 77493492}
+START n=97 checked=96
+{"status": "COMMITTED", "n": 97, "count": "283132396574720", "elapsed_ns": 86866831}
+START n=98 checked=97
+{"status": "COMMITTED", "n": 98, "count": "566259706056490", "elapsed_ns": 88762013}
+START n=99 checked=98
+{"status": "COMMITTED", "n": 99, "count": "584171604313793", "elapsed_ns": 110319205}
+START n=100 checked=99
+{"status": "COMMITTED", "n": 100, "count": "1150394967446073", "elapsed_ns": 109455651}
+START n=101 checked=100
+{"status": "COMMITTED", "n": 101, "count": "1151579572017511", "elapsed_ns": 144204367}
+START n=102 checked=101
+{"status": "COMMITTED", "n": 102, "count": "2283437178257971", "elapsed_ns": 139189090}
+START n=103 checked=102
+{"status": "COMMITTED", "n": 103, "count": "2356669607204447", "elapsed_ns": 162648466}
+START n=104 checked=103
+{"status": "COMMITTED", "n": 104, "count": "4613138004947447", "elapsed_ns": 165569336}
+START n=105 checked=104
+{"status": "COMMITTED", "n": 105, "count": "4613294027200940", "elapsed_ns": 208263026}
+START n=106 checked=105
+{"status": "COMMITTED", "n": 106, "count": "9142086278825730", "elapsed_ns": 204472411}
+START n=107 checked=106
+{"status": "COMMITTED", "n": 107, "count": "9142513471640957", "elapsed_ns": 259958216}
+START n=108 checked=107
+{"status": "COMMITTED", "n": 108, "count": "18241101148294887", "elapsed_ns": 262189399}
+START n=109 checked=108
+{"status": "COMMITTED", "n": 109, "count": "18241135049632954", "elapsed_ns": 310857709}
+START n=110 checked=109
+{"status": "COMMITTED", "n": 110, "count": "36310845192875466", "elapsed_ns": 310569377}
+START n=111 checked=110
+{"status": "COMMITTED", "n": 111, "count": "36312208149160298", "elapsed_ns": 364964671}
+START n=112 checked=111
+{"status": "COMMITTED", "n": 112, "count": "72530423609206810", "elapsed_ns": 362312956}
+START n=113 checked=112
+ACTIVE n=113 elapsed=5 s
+{"status": "COMMITTED", "n": 113, "count": "72530424180104282", "elapsed_ns": 419871687}
+START n=114 checked=113
+{"status": "COMMITTED", "n": 114, "count": "145059037895359111", "elapsed_ns": 422890129}
+START n=115 checked=114
+{"status": "COMMITTED", "n": 115, "count": "145133753034846056", "elapsed_ns": 537504946}
+START n=116 checked=115
+{"status": "COMMITTED", "n": 116, "count": "290044052648986374", "elapsed_ns": 536304909}
+START n=117 checked=116
+{"status": "COMMITTED", "n": 117, "count": "290044147301447125", "elapsed_ns": 672073165}
+START n=118 checked=117
+{"status": "COMMITTED", "n": 118, "count": "579800277383762725", "elapsed_ns": 648896961}
+START n=119 checked=118
+{"status": "COMMITTED", "n": 119, "count": "580167091592202053", "elapsed_ns": 758731489}
+START n=120 checked=119
+{"status": "COMMITTED", "n": 120, "count": "1157083907173146309", "elapsed_ns": 758250733}
+START n=121 checked=120
+ACTIVE n=121 elapsed=10 s
+{"status": "COMMITTED", "n": 121, "count": "1157083916589705101", "elapsed_ns": 873988056}
+START n=122 checked=121
+{"status": "COMMITTED", "n": 122, "count": "2312794987125038277", "elapsed_ns": 895654970}
+START n=123 checked=122
+{"status": "COMMITTED", "n": 123, "count": "2312796496096288127", "elapsed_ns": 1103126267}
+START n=124 checked=123
+{"status": "COMMITTED", "n": 124, "count": "4624869348118300067", "elapsed_ns": 1086454917}
+START n=125 checked=124
+{"status": "COMMITTED", "n": 125, "count": "4624869349500030759", "elapsed_ns": 1253817212}
+START n=126 checked=125
+ACTIVE n=126 elapsed=15 s
+{"status": "COMMITTED", "n": 126, "count": "9245921057316308847", "elapsed_ns": 1255981093}
+START n=127 checked=126
+{"status": "COMMITTED", "n": 127, "count": "9245926082801410935", "elapsed_ns": 1451880353}
+START n=128 checked=127
+{"status": "COMMITTED", "n": 128, "count": "18471061891119082367", "elapsed_ns": 1433725691}
+START n=129 checked=128
+ACTIVE n=129 elapsed=20 s
+{"status": "COMMITTED", "n": 129, "count": "18471061891124860943", "elapsed_ns": 1583823169}
+START n=130 checked=129
+{"status": "COMMITTED", "n": 130, "count": "36942118756756264366", "elapsed_ns": 1578046753}
+START n=131 checked=130
+{"status": "COMMITTED", "n": 131, "count": "41562249830940928773", "elapsed_ns": 2016528391}
+START n=132 checked=131
+ACTIVE n=132 elapsed=25 s
+{"status": "COMMITTED", "n": 132, "count": "78504368582413110783", "elapsed_ns": 2146246855}
+START n=133 checked=132
+{"status": "COMMITTED", "n": 133, "count": "79659851289708265605", "elapsed_ns": 2672901979}
+START n=134 checked=133
+ACTIVE n=134 elapsed=30 s
+{"status": "COMMITTED", "n": 134, "count": "153544062705622648737", "elapsed_ns": 2650372037}
+START n=135 checked=134
+{"status": "COMMITTED", "n": 135, "count": "172045215247471882829", "elapsed_ns": 3304468226}
+START n=136 checked=135
+ACTIVE n=136 elapsed=35 s
+{"status": "COMMITTED", "n": 136, "count": "320969086552347569256", "elapsed_ns": 3316969454}
+START n=137 checked=136
+ACTIVE n=137 elapsed=40 s
+{"status": "COMMITTED", "n": 137, "count": "321621485831044283499", "elapsed_ns": 4457745244}
+START n=138 checked=137
+ACTIVE n=138 elapsed=45 s
+{"status": "COMMITTED", "n": 138, "count": "624067526973678376104", "elapsed_ns": 4426076305}
+START n=139 checked=138
+ACTIVE n=139 elapsed=50 s
+{"status": "COMMITTED", "n": 139, "count": "625659139003001499396", "elapsed_ns": 6010462863}
+START n=140 checked=139
+ACTIVE n=140 elapsed=55 s
+{"status": "COMMITTED", "n": 140, "count": "1235792698312768098622", "elapsed_ns": 6010669342}
+START n=141 checked=140
+ACTIVE n=141 elapsed=60 s
+ACTIVE n=141 elapsed=65 s
+{"status": "COMMITTED", "n": 141, "count": "1236232380194371162735", "elapsed_ns": 7413678799}
+START n=142 checked=141
+ACTIVE n=142 elapsed=70 s
+{"status": "COMMITTED", "n": 142, "count": "2432136854929839394745", "elapsed_ns": 7436174785}
+START n=143 checked=142
+ACTIVE n=143 elapsed=75 s
+ACTIVE n=143 elapsed=80 s
+ACTIVE n=143 elapsed=86 s
+ACTIVE n=143 elapsed=91 s
+ACTIVE n=143 elapsed=96 s
+ACTIVE n=143 elapsed=101 s
+ACTIVE n=143 elapsed=106 s
+ACTIVE n=143 elapsed=112 s
+ACTIVE n=143 elapsed=117 s
+ACTIVE n=143 elapsed=122 s
+ACTIVE n=143 elapsed=127 s
+ACTIVE n=143 elapsed=132 s
+ACTIVE n=143 elapsed=137 s
+ACTIVE n=143 elapsed=142 s
+ACTIVE n=143 elapsed=147 s
+ACTIVE n=143 elapsed=152 s
+ACTIVE n=143 elapsed=157 s
+ACTIVE n=143 elapsed=162 s
+ACTIVE n=143 elapsed=168 s
+{"status": "COMMITTED", "n": 143, "count": "2437633217693006865373", "elapsed_ns": 96193559198}
+START n=144 checked=143
+ACTIVE n=144 elapsed=173 s
+ACTIVE n=144 elapsed=178 s
+ACTIVE n=144 elapsed=183 s
+ACTIVE n=144 elapsed=188 s
+ACTIVE n=144 elapsed=193 s
+ACTIVE n=144 elapsed=198 s
+ACTIVE n=144 elapsed=203 s
+ACTIVE n=144 elapsed=208 s
+ACTIVE n=144 elapsed=214 s
+ACTIVE n=144 elapsed=219 s
+ACTIVE n=144 elapsed=224 s
+ACTIVE n=144 elapsed=229 s
+ACTIVE n=144 elapsed=234 s
+ACTIVE n=144 elapsed=239 s
+ACTIVE n=144 elapsed=244 s
+ACTIVE n=144 elapsed=250 s
+ACTIVE n=144 elapsed=255 s
+ACTIVE n=144 elapsed=260 s
+ACTIVE n=144 elapsed=265 s
+{"status": "COMMITTED", "n": 144, "count": "4839167564472933081443", "elapsed_ns": 95714598863}
+{"status": "CHECKED_RANGE", "first": 1, "last": 144, "completed": 144, "last_completed": 144, "snapshot_sha256": "cc2cbed062a2988705f1ce1e152def8822977c4eb8873825d54b24396fea55b2", "unchecked_rows": 0, "elapsed_seconds": 265.84970760600027}
+	Command being timed: "timeout --signal=TERM --kill-after=30s 1200s python3 validation/check_counts.py campaign144/run.tsv --from 1 --through 144 --state check144/check.json"
+	User time (seconds): 115.62
+	System time (seconds): 148.06
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:25.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 18612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 34720958
+	Voluntary context switches: 439
+	Involuntary context switches: 16070
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1672
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,6 @@
+/src/a339592
+__pycache__/
+*.pyc
+*.aux
+*.out
+*.pdf

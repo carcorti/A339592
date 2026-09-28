@@ -1,0 +1,314 @@
+START n=1 completed_rows=0
+COMMITTED n=1 calls=1 hits=0 elapsed=0.021793 s term_seconds=0.021788804 saturated=0
+START n=2 completed_rows=1
+COMMITTED n=2 calls=3 hits=0 elapsed=0.025499 s term_seconds=0.003694177 saturated=0
+START n=3 completed_rows=2
+COMMITTED n=3 calls=5 hits=0 elapsed=0.029152 s term_seconds=0.003648732 saturated=0
+START n=4 completed_rows=3
+COMMITTED n=4 calls=5 hits=0 elapsed=0.032574 s term_seconds=0.003418519 saturated=0
+START n=5 completed_rows=4
+COMMITTED n=5 calls=7 hits=0 elapsed=0.035305 s term_seconds=0.002727469 saturated=0
+START n=6 completed_rows=5
+COMMITTED n=6 calls=7 hits=0 elapsed=0.037979 s term_seconds=0.002668839 saturated=0
+START n=7 completed_rows=6
+COMMITTED n=7 calls=9 hits=0 elapsed=0.040796 s term_seconds=0.002812569 saturated=0
+START n=8 completed_rows=7
+COMMITTED n=8 calls=11 hits=0 elapsed=0.044514 s term_seconds=0.003714255 saturated=0
+START n=9 completed_rows=8
+COMMITTED n=9 calls=15 hits=0 elapsed=0.048169 s term_seconds=0.003651587 saturated=0
+START n=10 completed_rows=9
+COMMITTED n=10 calls=15 hits=1 elapsed=0.051873 s term_seconds=0.003700799 saturated=0
+START n=11 completed_rows=10
+COMMITTED n=11 calls=21 hits=1 elapsed=0.054791 s term_seconds=0.002912998 saturated=0
+START n=12 completed_rows=11
+COMMITTED n=12 calls=21 hits=0 elapsed=0.057463 s term_seconds=0.002667586 saturated=0
+START n=13 completed_rows=12
+COMMITTED n=13 calls=29 hits=1 elapsed=0.061194 s term_seconds=0.003728060 saturated=0
+START n=14 completed_rows=13
+COMMITTED n=14 calls=29 hits=1 elapsed=0.064893 s term_seconds=0.003695850 saturated=0
+START n=15 completed_rows=14
+COMMITTED n=15 calls=35 hits=1 elapsed=0.068871 s term_seconds=0.003974654 saturated=0
+START n=16 completed_rows=15
+COMMITTED n=16 calls=35 hits=1 elapsed=0.071616 s term_seconds=0.002739592 saturated=0
+START n=17 completed_rows=16
+COMMITTED n=17 calls=41 hits=1 elapsed=0.074323 s term_seconds=0.002703124 saturated=0
+START n=18 completed_rows=17
+COMMITTED n=18 calls=41 hits=2 elapsed=0.078174 s term_seconds=0.003847876 saturated=0
+START n=19 completed_rows=18
+COMMITTED n=19 calls=63 hits=5 elapsed=0.081918 s term_seconds=0.003739803 saturated=0
+START n=20 completed_rows=19
+COMMITTED n=20 calls=67 hits=4 elapsed=0.085850 s term_seconds=0.003927986 saturated=0
+START n=21 completed_rows=20
+COMMITTED n=21 calls=89 hits=7 elapsed=0.088793 s term_seconds=0.002937634 saturated=0
+START n=22 completed_rows=21
+COMMITTED n=22 calls=89 hits=7 elapsed=0.092234 s term_seconds=0.003437554 saturated=0
+START n=23 completed_rows=22
+COMMITTED n=23 calls=95 hits=7 elapsed=0.096022 s term_seconds=0.003783215 saturated=0
+START n=24 completed_rows=23
+COMMITTED n=24 calls=95 hits=5 elapsed=0.099899 s term_seconds=0.003873825 saturated=0
+START n=25 completed_rows=24
+COMMITTED n=25 calls=109 hits=8 elapsed=0.103610 s term_seconds=0.003706961 saturated=0
+START n=26 completed_rows=25
+COMMITTED n=26 calls=109 hits=4 elapsed=0.106765 s term_seconds=0.003147980 saturated=0
+START n=27 completed_rows=26
+COMMITTED n=27 calls=161 hits=8 elapsed=0.109484 s term_seconds=0.002714675 saturated=0
+START n=28 completed_rows=27
+COMMITTED n=28 calls=155 hits=6 elapsed=0.112219 s term_seconds=0.002731346 saturated=0
+START n=29 completed_rows=28
+COMMITTED n=29 calls=183 hits=13 elapsed=0.115077 s term_seconds=0.002853126 saturated=0
+START n=30 completed_rows=29
+COMMITTED n=30 calls=185 hits=14 elapsed=0.117900 s term_seconds=0.002818891 saturated=0
+START n=31 completed_rows=30
+COMMITTED n=31 calls=203 hits=15 elapsed=0.120787 s term_seconds=0.002882521 saturated=0
+START n=32 completed_rows=31
+COMMITTED n=32 calls=203 hits=12 elapsed=0.123727 s term_seconds=0.002934658 saturated=0
+START n=33 completed_rows=32
+COMMITTED n=33 calls=219 hits=13 elapsed=0.127419 s term_seconds=0.003687655 saturated=0
+START n=34 completed_rows=33
+COMMITTED n=34 calls=219 hits=11 elapsed=0.131172 s term_seconds=0.003749962 saturated=0
+START n=35 completed_rows=34
+COMMITTED n=35 calls=367 hits=16 elapsed=0.134629 s term_seconds=0.003453194 saturated=0
+START n=36 completed_rows=35
+COMMITTED n=36 calls=389 hits=17 elapsed=0.137350 s term_seconds=0.002716218 saturated=0
+START n=37 completed_rows=36
+COMMITTED n=37 calls=533 hits=45 elapsed=0.140140 s term_seconds=0.002784496 saturated=0
+START n=38 completed_rows=37
+COMMITTED n=38 calls=541 hits=44 elapsed=0.143905 s term_seconds=0.003761523 saturated=0
+START n=39 completed_rows=38
+COMMITTED n=39 calls=615 hits=59 elapsed=0.147654 s term_seconds=0.003745844 saturated=0
+START n=40 completed_rows=39
+COMMITTED n=40 calls=635 hits=39 elapsed=0.151611 s term_seconds=0.003953295 saturated=0
+START n=41 completed_rows=40
+COMMITTED n=41 calls=757 hits=54 elapsed=0.154776 s term_seconds=0.003158440 saturated=0
+START n=42 completed_rows=41
+COMMITTED n=42 calls=759 hits=43 elapsed=0.157619 s term_seconds=0.002838038 saturated=0
+START n=43 completed_rows=42
+COMMITTED n=43 calls=907 hits=52 elapsed=0.161478 s term_seconds=0.003854418 saturated=0
+START n=44 completed_rows=43
+COMMITTED n=44 calls=909 hits=53 elapsed=0.165257 s term_seconds=0.003774799 saturated=0
+START n=45 completed_rows=44
+COMMITTED n=45 calls=1005 hits=56 elapsed=0.168466 s term_seconds=0.003206290 saturated=0
+START n=46 completed_rows=45
+COMMITTED n=46 calls=993 hits=48 elapsed=0.171171 s term_seconds=0.002699396 saturated=0
+START n=47 completed_rows=46
+COMMITTED n=47 calls=1047 hits=50 elapsed=0.174159 s term_seconds=0.002984713 saturated=0
+START n=48 completed_rows=47
+COMMITTED n=48 calls=1051 hits=53 elapsed=0.176870 s term_seconds=0.002706730 saturated=0
+START n=49 completed_rows=48
+COMMITTED n=49 calls=1085 hits=54 elapsed=0.179624 s term_seconds=0.002749410 saturated=0
+START n=50 completed_rows=49
+COMMITTED n=50 calls=1085 hits=54 elapsed=0.182327 s term_seconds=0.002699286 saturated=0
+START n=51 completed_rows=50
+COMMITTED n=51 calls=1869 hits=79 elapsed=0.185236 s term_seconds=0.002904813 saturated=0
+START n=52 completed_rows=51
+COMMITTED n=52 calls=1887 hits=79 elapsed=0.188263 s term_seconds=0.003021132 saturated=0
+START n=53 completed_rows=52
+COMMITTED n=53 calls=2329 hits=160 elapsed=0.191933 s term_seconds=0.003664712 saturated=0
+START n=54 completed_rows=53
+COMMITTED n=54 calls=2381 hits=185 elapsed=0.196107 s term_seconds=0.004168018 saturated=0
+START n=55 completed_rows=54
+COMMITTED n=55 calls=2553 hits=195 elapsed=0.200368 s term_seconds=0.004256735 saturated=0
+START n=56 completed_rows=55
+COMMITTED n=56 calls=2551 hits=161 elapsed=0.203398 s term_seconds=0.003024739 saturated=0
+START n=57 completed_rows=56
+COMMITTED n=57 calls=2803 hits=184 elapsed=0.206932 s term_seconds=0.003529337 saturated=0
+START n=58 completed_rows=57
+COMMITTED n=58 calls=2805 hits=146 elapsed=0.209942 s term_seconds=0.003005682 saturated=0
+START n=59 completed_rows=58
+COMMITTED n=59 calls=3711 hits=226 elapsed=0.213132 s term_seconds=0.003186483 saturated=0
+START n=60 completed_rows=59
+COMMITTED n=60 calls=3799 hits=235 elapsed=0.216336 s term_seconds=0.003200588 saturated=0
+START n=61 completed_rows=60
+COMMITTED n=61 calls=4073 hits=255 elapsed=0.219750 s term_seconds=0.003410654 saturated=0
+START n=62 completed_rows=61
+COMMITTED n=62 calls=4091 hits=245 elapsed=0.223505 s term_seconds=0.003749380 saturated=0
+START n=63 completed_rows=62
+COMMITTED n=63 calls=4215 hits=258 elapsed=0.226805 s term_seconds=0.003294606 saturated=0
+START n=64 completed_rows=63
+COMMITTED n=64 calls=4367 hits=265 elapsed=0.230195 s term_seconds=0.003386298 saturated=0
+START n=65 completed_rows=64
+COMMITTED n=65 calls=4449 hits=269 elapsed=0.233684 s term_seconds=0.003485595 saturated=0
+START n=66 completed_rows=65
+COMMITTED n=66 calls=4459 hits=259 elapsed=0.237723 s term_seconds=0.004036160 saturated=0
+START n=67 completed_rows=66
+COMMITTED n=67 calls=8149 hits=288 elapsed=0.243563 s term_seconds=0.005833300 saturated=0
+START n=68 completed_rows=67
+COMMITTED n=68 calls=8497 hits=431 elapsed=0.249112 s term_seconds=0.005545158 saturated=0
+START n=69 completed_rows=68
+COMMITTED n=69 calls=11209 hits=1223 elapsed=0.255927 s term_seconds=0.006811579 saturated=0
+START n=70 completed_rows=69
+COMMITTED n=70 calls=11279 hits=1170 elapsed=0.260378 s term_seconds=0.004444167 saturated=0
+START n=71 completed_rows=70
+COMMITTED n=71 calls=13167 hits=1296 elapsed=0.264961 s term_seconds=0.004579141 saturated=0
+START n=72 completed_rows=71
+COMMITTED n=72 calls=14745 hits=947 elapsed=0.269937 s term_seconds=0.004973302 saturated=0
+START n=73 completed_rows=72
+COMMITTED n=73 calls=20195 hits=1562 elapsed=0.276819 s term_seconds=0.006877743 saturated=0
+START n=74 completed_rows=73
+COMMITTED n=74 calls=20133 hits=1443 elapsed=0.283772 s term_seconds=0.006948757 saturated=0
+START n=75 completed_rows=74
+COMMITTED n=75 calls=27157 hits=2083 elapsed=0.291205 s term_seconds=0.007428500 saturated=0
+START n=76 completed_rows=75
+COMMITTED n=76 calls=27783 hits=2062 elapsed=0.299137 s term_seconds=0.007926385 saturated=0
+START n=77 completed_rows=76
+COMMITTED n=77 calls=30767 hits=2342 elapsed=0.308388 s term_seconds=0.009245797 saturated=0
+START n=78 completed_rows=77
+COMMITTED n=78 calls=30965 hits=2337 elapsed=0.317896 s term_seconds=0.009502039 saturated=0
+START n=79 completed_rows=78
+COMMITTED n=79 calls=33103 hits=2374 elapsed=0.326387 s term_seconds=0.008488123 saturated=0
+START n=80 completed_rows=79
+COMMITTED n=80 calls=33313 hits=2289 elapsed=0.334019 s term_seconds=0.007625430 saturated=0
+START n=81 completed_rows=80
+COMMITTED n=81 calls=34873 hits=2406 elapsed=0.342689 s term_seconds=0.008665716 saturated=0
+START n=82 completed_rows=81
+COMMITTED n=82 calls=34863 hits=2152 elapsed=0.350690 s term_seconds=0.007995325 saturated=0
+START n=83 completed_rows=82
+COMMITTED n=83 calls=50957 hits=2878 elapsed=0.363495 s term_seconds=0.012800291 saturated=0
+START n=84 completed_rows=83
+COMMITTED n=84 calls=52151 hits=2628 elapsed=0.374535 s term_seconds=0.011034371 saturated=0
+START n=85 completed_rows=84
+COMMITTED n=85 calls=57513 hits=3091 elapsed=0.388165 s term_seconds=0.013625984 saturated=0
+START n=86 completed_rows=85
+COMMITTED n=86 calls=57431 hits=3131 elapsed=0.403519 s term_seconds=0.015345197 saturated=0
+START n=87 completed_rows=86
+COMMITTED n=87 calls=58015 hits=3167 elapsed=0.415527 s term_seconds=0.011999476 saturated=0
+START n=88 completed_rows=87
+COMMITTED n=88 calls=57463 hits=2912 elapsed=0.429068 s term_seconds=0.013534492 saturated=0
+START n=89 completed_rows=88
+COMMITTED n=89 calls=58925 hits=3008 elapsed=0.441567 s term_seconds=0.012492533 saturated=0
+START n=90 completed_rows=89
+COMMITTED n=90 calls=59539 hits=3022 elapsed=0.455455 s term_seconds=0.013883619 saturated=0
+START n=91 completed_rows=90
+COMMITTED n=91 calls=70247 hits=3781 elapsed=0.470703 s term_seconds=0.015241742 saturated=0
+START n=92 completed_rows=91
+COMMITTED n=92 calls=70937 hits=3713 elapsed=0.486236 s term_seconds=0.015523682 saturated=0
+START n=93 completed_rows=92
+COMMITTED n=93 calls=73289 hits=3958 elapsed=0.501881 s term_seconds=0.015637126 saturated=0
+START n=94 completed_rows=93
+COMMITTED n=94 calls=73693 hits=4059 elapsed=0.516516 s term_seconds=0.014628119 saturated=0
+START n=95 completed_rows=94
+COMMITTED n=95 calls=74251 hits=4089 elapsed=0.532554 s term_seconds=0.016031528 saturated=0
+START n=96 completed_rows=95
+COMMITTED n=96 calls=73761 hits=3985 elapsed=0.548096 s term_seconds=0.015534944 saturated=0
+START n=97 completed_rows=96
+COMMITTED n=97 calls=74129 hits=4002 elapsed=0.564066 s term_seconds=0.015965284 saturated=0
+START n=98 completed_rows=97
+COMMITTED n=98 calls=74139 hits=3902 elapsed=0.579943 s term_seconds=0.015869583 saturated=0
+START n=99 completed_rows=98
+COMMITTED n=99 calls=138305 hits=4286 elapsed=0.605833 s term_seconds=0.025883495 saturated=0
+START n=100 completed_rows=99
+COMMITTED n=100 calls=142161 hits=6388 elapsed=0.631654 s term_seconds=0.025813413 saturated=0
+START n=101 completed_rows=100
+COMMITTED n=101 calls=178735 hits=15660 elapsed=0.662232 s term_seconds=0.030569948 saturated=0
+START n=102 completed_rows=101
+COMMITTED n=102 calls=181343 hits=15289 elapsed=0.694965 s term_seconds=0.032725771 saturated=0
+START n=103 completed_rows=102
+COMMITTED n=103 calls=204031 hits=16829 elapsed=0.730547 s term_seconds=0.035574699 saturated=0
+START n=104 completed_rows=103
+COMMITTED n=104 calls=216289 hits=12314 elapsed=0.769243 s term_seconds=0.038686821 saturated=0
+START n=105 completed_rows=104
+COMMITTED n=105 calls=266655 hits=17566 elapsed=0.813834 s term_seconds=0.044583199 saturated=0
+START n=106 completed_rows=105
+COMMITTED n=106 calls=265495 hits=16828 elapsed=0.858495 s term_seconds=0.044652791 saturated=0
+START n=107 completed_rows=106
+COMMITTED n=107 calls=315555 hits=19794 elapsed=0.912946 s term_seconds=0.054442070 saturated=0
+START n=108 completed_rows=107
+COMMITTED n=108 calls=317899 hits=20324 elapsed=0.967941 s term_seconds=0.054986704 saturated=0
+START n=109 completed_rows=108
+COMMITTED n=109 calls=333721 hits=21386 elapsed=1.025068 s term_seconds=0.057117401 saturated=0
+START n=110 completed_rows=109
+COMMITTED n=110 calls=332133 hits=20629 elapsed=1.081578 s term_seconds=0.056501623 saturated=0
+START n=111 completed_rows=110
+COMMITTED n=111 calls=340059 hits=20269 elapsed=1.139560 s term_seconds=0.057972258 saturated=0
+START n=112 completed_rows=111
+COMMITTED n=112 calls=339369 hits=19786 elapsed=1.195155 s term_seconds=0.055586501 saturated=0
+START n=113 completed_rows=112
+COMMITTED n=113 calls=343075 hits=19967 elapsed=1.252192 s term_seconds=0.057029296 saturated=0
+START n=114 completed_rows=113
+COMMITTED n=114 calls=344205 hits=19631 elapsed=1.311069 s term_seconds=0.058867952 saturated=0
+START n=115 completed_rows=114
+COMMITTED n=115 calls=581171 hits=26942 elapsed=1.404912 s term_seconds=0.093835291 saturated=0
+START n=116 completed_rows=115
+COMMITTED n=116 calls=584479 hits=27856 elapsed=1.502448 s term_seconds=0.097527323 saturated=0
+START n=117 completed_rows=116
+COMMITTED n=117 calls=651823 hits=37372 elapsed=1.604620 s term_seconds=0.102164162 saturated=0
+START n=118 completed_rows=117
+COMMITTED n=118 calls=656237 hits=38461 elapsed=1.708523 s term_seconds=0.103895919 saturated=0
+START n=119 completed_rows=118
+COMMITTED n=119 calls=664619 hits=39792 elapsed=1.812862 s term_seconds=0.104329664 saturated=0
+START n=120 completed_rows=119
+COMMITTED n=120 calls=662147 hits=38356 elapsed=1.920058 s term_seconds=0.107187309 saturated=0
+START n=121 completed_rows=120
+COMMITTED n=121 calls=681183 hits=40125 elapsed=2.027095 s term_seconds=0.107026736 saturated=0
+START n=122 completed_rows=121
+COMMITTED n=122 calls=703705 hits=38791 elapsed=2.138916 s term_seconds=0.111814229 saturated=0
+START n=123 completed_rows=122
+COMMITTED n=123 calls=801941 hits=47079 elapsed=2.266559 s term_seconds=0.127634429 saturated=0
+START n=124 completed_rows=123
+COMMITTED n=124 calls=811745 hits=47989 elapsed=2.397899 s term_seconds=0.131327675 saturated=0
+START n=125 completed_rows=124
+COMMITTED n=125 calls=825921 hits=49008 elapsed=2.529020 s term_seconds=0.131110016 saturated=0
+START n=126 completed_rows=125
+COMMITTED n=126 calls=819963 hits=48083 elapsed=2.659324 s term_seconds=0.130294982 saturated=0
+START n=127 completed_rows=126
+COMMITTED n=127 calls=822643 hits=48207 elapsed=2.792894 s term_seconds=0.133561555 saturated=0
+START n=128 completed_rows=127
+COMMITTED n=128 calls=822067 hits=47511 elapsed=2.922394 s term_seconds=0.129491821 saturated=0
+START n=129 completed_rows=128
+COMMITTED n=129 calls=823665 hits=47572 elapsed=3.053842 s term_seconds=0.131438983 saturated=0
+START n=130 completed_rows=129
+COMMITTED n=130 calls=823877 hits=47487 elapsed=3.190499 s term_seconds=0.136646345 saturated=0
+START n=131 completed_rows=130
+COMMITTED n=131 calls=1550077 hits=50595 elapsed=3.434294 s term_seconds=0.243786745 saturated=0
+START n=132 completed_rows=131
+COMMITTED n=132 calls=1629263 hits=86504 elapsed=3.693632 s term_seconds=0.259327940 saturated=0
+START n=133 completed_rows=132
+COMMITTED n=133 calls=2002357 hits=225030 elapsed=3.991091 s term_seconds=0.297451210 saturated=0
+START n=134 completed_rows=133
+COMMITTED n=134 calls=1913685 hits=173429 elapsed=4.285593 s term_seconds=0.294493970 saturated=0
+START n=135 completed_rows=134
+COMMITTED n=135 calls=2413637 hits=168637 elapsed=4.662913 s term_seconds=0.377311218 saturated=0
+START n=136 completed_rows=135
+ACTIVE n=136 calls=2062981 hits=99918 elapsed=5 s saturated=0
+COMMITTED n=136 calls=2976745 hits=151536 elapsed=5.146984 s term_seconds=0.484063205 saturated=0
+START n=137 completed_rows=136
+COMMITTED n=137 calls=4394143 hits=314324 elapsed=5.820409 s term_seconds=0.673414239 saturated=0
+START n=138 completed_rows=137
+COMMITTED n=138 calls=4348835 hits=224602 elapsed=6.509434 s term_seconds=0.689011828 saturated=0
+START n=139 completed_rows=138
+COMMITTED n=139 calls=6122457 hits=354891 elapsed=7.463628 s term_seconds=0.954186094 saturated=0
+START n=140 completed_rows=139
+COMMITTED n=140 calls=6141111 hits=350843 elapsed=8.429321 s term_seconds=0.965685514 saturated=0
+START n=141 completed_rows=140
+COMMITTED n=141 calls=7215011 hits=453811 elapsed=9.539378 s term_seconds=1.110048501 saturated=0
+START n=142 completed_rows=141
+ACTIVE n=142 calls=2850343 hits=138713 elapsed=10 s saturated=0
+COMMITTED n=142 calls=7191961 hits=429268 elapsed=10.657590 s term_seconds=1.118204252 saturated=0
+START n=143 completed_rows=142
+COMMITTED n=143 calls=7983599 hits=483377 elapsed=11.899185 s term_seconds=1.241586773 saturated=0
+START n=144 completed_rows=143
+COMMITTED n=144 calls=7986145 hits=459305 elapsed=13.158845 s term_seconds=1.259651625 saturated=0
+COMPLETE rows=144 target=144 elapsed=13.158852 s; unfinished term is recomputed on resume
+	Command being timed: "timeout --signal=TERM --kill-after=30s 300s ./src/a339592 run 144 campaign144"
+	User time (seconds): 12.78
+	System time (seconds): 0.02
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 50684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12505
+	Voluntary context switches: 441
+	Involuntary context switches: 150
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1168
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

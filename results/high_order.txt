@@ -1,0 +1,8 @@
+Scope: bounded high-order diagnostic agreement, selected single orders; not an official prefix or term admission.
+C fixture: validation/bench_kernel_v2, sha256 67755278e2f4db37eeff15e418f1acf4f34d10780a41bad6302421d42a7b21d6
+Checker: validation/check_counts.py, sha256 df8c4cf77c0073e74c655a281bbc22c290868c9c8d0343c4c70f9ced4d3949e3
+Checker log: outputs/campaign_handoff/validation_tail144_v1.txt, sha256 e36e20811d4ede8dfdc9cd81544e7a4855e611076b3f102265ac8f53c49efcdd
+n=140 C=1235792698312768098622 Python=1235792698312768098622 MATCH calls=6141111
+n=142 C=2432136854929839394745 Python=2432136854929839394745 MATCH calls=7191961
+n=143 C=2437633217693006865373 Python=2437633217693006865373 MATCH calls=7983599
+n=144 C=4839167564472933081443 Python=4839167564472933081443 MATCH calls=7986145

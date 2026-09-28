@@ -1,0 +1,8 @@
+Purpose: proposal-time runtime identity; recheck at authorized execution.
+Host: carlo-UM790Pro
+OS: Linux-6.17.0-42-generic-x86_64-with-glibc2.39
+Python: 3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]
+Python executable: /usr/bin/python3.12
+math module: built-in in this interpreter
+C source/Makefile/binary and checker: see freeze144_v1.sha256
+CPU: AMD Ryzen 9 7940HS w/ Radeon 780M Graphics
