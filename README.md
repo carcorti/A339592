@@ -1,6 +1,6 @@
 # A339592: independent sets in Motzkin graphs
 
-This local release draft accompanies Carlo Corti's provisional manuscript
+This v1.0 publication package accompanies Carlo Corti's provisional manuscript
 [`paper/A339592_v3.tex`](paper/A339592_v3.tex). For the Motzkin graph on `n`
 vertices, `a(n)` counts all independent vertex sets, including the empty set.
 The stored, locally cross-checked values cover `n = 1..144`. The added values
@@ -90,10 +90,12 @@ arXiv links; third-party full texts are not redistributed here.
 
 ## Publication state
 
-`PACKAGE_DRAFT — AWAITING AUTHOR INSPECTION`. The repository URL
-`https://github.com/carcorti/A339592` is an intended location, and
-`10.5281/zenodo.xxxxxxxx` is a literal DOI placeholder. Neither asserts an
-existing public release. `CITATION.cff` therefore has no `date-released` yet.
+The repository is publicly available at
+`https://github.com/carcorti/A339592`. This package revision is prepared for
+its first GitHub release, `v1.0`. The literal Zenodo DOI placeholder
+`10.5281/zenodo.xxxxxxxx` does not assert an assigned DOI; it will be resolved
+only after the corresponding Zenodo record is verified. `CITATION.cff` has no
+`date-released` until a release date is confirmed.
 The MIT license covers Carlo Corti's original project software and documents.
 The historical OEIS snapshot and predecessor prefix have separate source
 attribution and license treatment in `OEIS_LICENSE.md`. See `PROVENANCE.md`

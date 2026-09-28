@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 type: software
 license: MIT
-message: "Please cite the accompanying article when using these counts. DOI is a placeholder until publication."
+message: "Please cite the accompanying article when using these counts. The DOI is a placeholder pending Zenodo synchronization."
 title: "A339592: Exact Independent-Set Counts in Motzkin Graphs through Order 144"
 authors:
   - family-names: Corti
@@ -16,7 +16,7 @@ keywords:
   - independent sets
   - exact enumeration
   - A339592
-abstract: "Exact C17 enumeration and distinct Python validation at every index from 1 through 144, with original states, logs, an indexed b-file and a provisional manuscript. This is a local package draft; the DOI and repository URL designate an intended release."
+abstract: "Exact C17 enumeration and distinct Python validation at every index from 1 through 144, with original states, logs, an indexed b-file and a provisional manuscript. The GitHub repository is public; the Zenodo DOI remains a literal placeholder pending synchronization."
 preferred-citation:
   type: article
   authors:

@@ -50,6 +50,7 @@ this draft-package check. Native `verify` proves file/identity integrity;
 `validation/audit.py` compares retained data and logs; bounded tests recompute
 small orders. These checks do not formally prove each 144-term value.
 
-Publication state: `PACKAGE_DRAFT — AWAITING AUTHOR INSPECTION`. No final
-pre-upload or distributed-release claim is made. The DOI is a literal
-placeholder. The CFF release date is intentionally pending actual release.
+Publication state: the GitHub repository is public, and this package revision
+is prepared for its first release, `v1.0`. The DOI is a literal placeholder
+pending Zenodo synchronization. No distributed-release claim is made. The CFF
+release date is intentionally pending a confirmed release date.
