@@ -50,7 +50,9 @@ this draft-package check. Native `verify` proves file/identity integrity;
 `validation/audit.py` compares retained data and logs; bounded tests recompute
 small orders. These checks do not formally prove each 144-term value.
 
-Publication state: the GitHub repository is public, and this package revision
-is prepared for its first release, `v1.0`. The DOI is a literal placeholder
-pending Zenodo synchronization. No distributed-release claim is made. The CFF
-release date is intentionally pending a confirmed release date.
+Publication state: the GitHub repository and first release `v1.0` are public.
+This package revision is for `v1.0.1` and includes `paper/A339592.tex` and
+`paper/A339592.pdf`. The cited Zenodo DOI `10.5281/zenodo.23010698` is the
+author-designated concept DOI for the release series, not a version-specific
+record DOI. The v1.0.1 version DOI and publication date are supplied by its
+Zenodo record after synchronization, rather than asserted in this package.

@@ -1,7 +1,7 @@
 # A339592: independent sets in Motzkin graphs
 
-This v1.0 publication package accompanies Carlo Corti's provisional manuscript
-[`paper/A339592_v3.tex`](paper/A339592_v3.tex). For the Motzkin graph on `n`
+This v1.0.1 publication package accompanies Carlo Corti's manuscript
+[`paper/A339592.tex`](paper/A339592.tex) and its [matching PDF](paper/A339592.pdf). For the Motzkin graph on `n`
 vertices, `a(n)` counts all independent vertex sets, including the empty set.
 The stored, locally cross-checked values cover `n = 1..144`. The added values
 relative to the saved OEIS entry are `13..144`: `a(13) = 104` and
@@ -23,7 +23,7 @@ The source's 192-vertex numeric capacity is not a computed result through 192.
 | `results/validation.md`, `results/bfile_update.md` | Unmodified historical reports, written before and after the local b-file update respectively. |
 | `results/bfile_pre144.txt`, `results/oeis_snapshot.md` | Saved 12-term predecessor and OEIS snapshot; historical references only. |
 | `results/environment.txt`, `results/triage.md`, `results/tail_checks.txt`, `results/high_order.txt` | Pre-run environment and cited bounded diagnostics. |
-| `paper/A339592_v3.tex` | Monolithic English manuscript with its own bibliography. |
+| `paper/A339592.tex`, `paper/A339592.pdf` | Monolithic English manuscript with its own bibliography and matching rendered PDF. |
 | `PROVENANCE.md`, `validation/summary.md`, `validation/run_manifest.tsv`, `SHA256SUMS` | Source mapping, scope, run telemetry, and byte identities. |
 
 The snapshot of OEIS still shows 1..12 and keyword `more`; the local b-file
@@ -83,19 +83,31 @@ computations agreed at every stored index; the integrity audit only checks
 retained bytes and their consistency.
 
 The TeX file is self-contained apart from standard LaTeX packages
-(`lmodern`, AMS, `booktabs`, `microtype`, `geometry`, `hyperref`). It can be
-compiled in a temporary directory. No PDF is supplied. The primary research
-papers are cited in its bibliography and may be acquired through their DOI or
+(`lmodern`, AMS, `booktabs`, `microtype`, `geometry`, `hyperref`). The matching
+PDF is included. Rebuilding requires `latexmk` and `pdflatex` with those
+packages installed. To rebuild without writing auxiliary files into the
+package, run from the package root:
+
+```sh
+mkdir -p /tmp/a339592_tex_build
+latexmk -pdf -interaction=nonstopmode -halt-on-error \
+  -outdir=/tmp/a339592_tex_build paper/A339592.tex
+```
+
+The primary research papers are cited in its bibliography and may be acquired through their DOI or
 arXiv links; third-party full texts are not redistributed here.
 
 ## Publication state
 
 The repository is publicly available at
-`https://github.com/carcorti/A339592`. This package revision is prepared for
-its first GitHub release, `v1.0`. The literal Zenodo DOI placeholder
-`10.5281/zenodo.xxxxxxxx` does not assert an assigned DOI; it will be resolved
-only after the corresponding Zenodo record is verified. `CITATION.cff` has no
-`date-released` until a release date is confirmed.
+`https://github.com/carcorti/A339592`. This package revision is for GitHub
+release `v1.0.1`; the predecessor `v1.0` is already published. The
+author-designated Zenodo concept DOI is `10.5281/zenodo.23010698` (link:
+`https://doi.org/10.5281/zenodo.23010698`). It identifies the release series,
+not a specific deposited version. The v1.0 record has version DOI
+`10.5281/zenodo.23010699`; consult the published Zenodo v1.0.1 record for
+its version-specific DOI. `CITATION.cff` intentionally omits a release date;
+the provider record supplies its authoritative publication date.
 The MIT license covers Carlo Corti's original project software and documents.
 The historical OEIS snapshot and predecessor prefix have separate source
 attribution and license treatment in `OEIS_LICENSE.md`. See `PROVENANCE.md`

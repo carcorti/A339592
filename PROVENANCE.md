@@ -22,7 +22,7 @@ public source/build have distinct hashes.
 | `snapshot/A339592 - OEIS.md` | `results/oeis_snapshot.md` | Byte-identical saved OEIS page; its 12-term state is historical. |
 | `outputs/campaign_handoff/environment144_v1.txt`, `outputs/triage_checks.md` | `results/environment.txt`, `results/triage.md` | Byte-identical pre-run and small-order diagnostics. |
 | `outputs/campaign_handoff/validation_tail144_v1.txt`, `outputs/campaign_handoff/high_order_comparison_v1.txt` | `results/tail_checks.txt`, `results/high_order.txt` | Byte-identical bounded high-order diagnostics; they are not extra campaign terms. |
-| `paper/A339592_v3.tex` | `paper/A339592_v3.tex` | Byte-identical current provisional manuscript; no PDF. |
+| `paper/A339592_v3.tex` | `paper/A339592.tex` | Final manuscript derived from the preserved provisional predecessor; publication locators and availability text were updated. The generated `paper/A339592.pdf` matches this final source. |
 
 `validation/check_package.py`, `validation/audit.py` and `validation/run.sh`
 are new public-package checks, not historical campaign code. The exact historical C and
@@ -67,5 +67,5 @@ Third-party Riordan-graph papers consulted for the manuscript are cited by
 their primary DOI/arXiv locators inside the TeX, without redistributing local
 copies of their full text. Private code and manuscript reviews, obsolete
 drafts, caches, temporary diagnostics, and local framework dossiers remain
-outside this publication draft. No exact result beyond 144 is held here;
+outside this publication package. No exact result beyond 144 is held here;
 auxiliary a-file decision: **NO** (no later sparse exact term).

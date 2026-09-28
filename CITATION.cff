@@ -1,29 +1,30 @@
 cff-version: 1.2.0
 type: software
 license: MIT
-message: "Please cite the accompanying article when using these counts. The DOI is a placeholder pending Zenodo synchronization."
+message: "Please cite the project using its Zenodo concept DOI and consult the accompanying manuscript. The DOI identifies the release series, not an individual version."
 title: "A339592: Exact Independent-Set Counts in Motzkin Graphs through Order 144"
 authors:
   - family-names: Corti
     given-names: Carlo
     email: carlo.corti@outlook.com
-version: "v1.0"
+version: "v1.0.1"
 repository-code: "https://github.com/carcorti/A339592"
-doi: "10.5281/zenodo.xxxxxxxx"
-url: "https://doi.org/10.5281/zenodo.xxxxxxxx"
+doi: "10.5281/zenodo.23010698"
+url: "https://doi.org/10.5281/zenodo.23010698"
 keywords:
   - Motzkin graphs
   - independent sets
   - exact enumeration
   - A339592
-abstract: "Exact C17 enumeration and distinct Python validation at every index from 1 through 144, with original states, logs, an indexed b-file and a provisional manuscript. The GitHub repository is public; the Zenodo DOI remains a literal placeholder pending synchronization."
+abstract: "Exact C17 enumeration and distinct Python validation at every index from 1 through 144, with original states, logs, an indexed b-file and a manuscript in TeX and PDF. The GitHub repository is public; the DOI is the Zenodo concept DOI for the release series."
 preferred-citation:
-  type: article
+  type: software
   authors:
     - family-names: Corti
       given-names: Carlo
       email: carlo.corti@outlook.com
   title: "Exact Independent-Set Counts in Motzkin Graphs through Order 144"
+  version: "v1.0.1"
   year: 2026
-  doi: "10.5281/zenodo.xxxxxxxx"
-  url: "https://doi.org/10.5281/zenodo.xxxxxxxx"
+  doi: "10.5281/zenodo.23010698"
+  url: "https://doi.org/10.5281/zenodo.23010698"
